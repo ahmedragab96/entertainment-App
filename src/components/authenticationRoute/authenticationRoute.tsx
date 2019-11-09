@@ -7,7 +7,6 @@ import {
   Route,
   Switch,
 } from 'react-router-dom';
-import Home from '../../screens/home/home';
 class AuthenticationRoute extends Component<any> {
   render() {
     const {

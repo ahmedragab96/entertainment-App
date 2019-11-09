@@ -7,8 +7,6 @@ import MenuIcon from '@material-ui/icons/Menu';
 import AccountCircle from '@material-ui/icons/AccountCircle';
 import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
-import { makeStyles, createStyles } from '@material-ui/styles';
-import { Theme } from '@material-ui/core';
 import styles from './styles.module.scss';
 
 interface State {
@@ -39,8 +37,6 @@ class Navbar extends Component<{}, State> {
             open: true,
         });
     }
-    
-    // classes = useStyles();
     render() {
         return (
             <div >

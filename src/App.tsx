@@ -5,14 +5,14 @@ import {
   BrowserRouter,
 } from 'react-router-dom';
 import AuthenticationRoute from './components/authenticationRoute/authenticationRoute';
-import Home from './screens/home/home';
+import Layout from './components/Layout/layout';
 
 function App() {
   return (
     <div>
     <BrowserRouter>
       <Switch>
-        <AuthenticationRoute path='/' component={Home} />
+        <AuthenticationRoute path='/' component={Layout} />
       </Switch>
     </BrowserRouter>
     </div>

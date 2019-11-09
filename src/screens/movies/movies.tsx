@@ -4,15 +4,15 @@ React,
   Component,
 } from 'react';
 
-class Home extends Component {
+class Movies extends Component {
     
     render () {
         return (
             <div>
-                Hello in home.
+                Hello in Movies home.
             </div>
         );
     }
 }
 
-export default Home;
+export default Movies;

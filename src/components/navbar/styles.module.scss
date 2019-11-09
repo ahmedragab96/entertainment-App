@@ -1,0 +1,13 @@
+.barContainer {
+    background-color: bisque !important;
+    flex-grow: 1;
+    position: relative !important;
+}
+.menuButton {
+    position: absolute !important;
+    right: 10px;
+}
+.menuItem {
+    margin: 0 10px !important;
+    color: #4778b1;
+}

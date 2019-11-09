@@ -8,14 +8,23 @@ import {
   Switch,
 } from 'react-router-dom';
 import Home from '../../screens/home/home';
-class AuthenticationRoute extends Component {
+import Navbar from '../navbar/navbar';
+import Movies from '../../screens/movies/movies';
+class Layout extends Component {
   render() {
-      return (
+    return (
+      <div>
+        <div>
+          <Navbar />
+        </div>
         <Switch>
-          <Route component = {Home} path = '/home' />
+          <Route exact={true} component={Home}    path = '/' />
+          <Route exact={true} component={Home}    path = '/home' />
+          <Route exact={true} component={Movies}  path = '/movies' />
         </Switch>
-      );
+      </div>
+    );
   }
 }
 
-export default AuthenticationRoute;
+export default Layout;

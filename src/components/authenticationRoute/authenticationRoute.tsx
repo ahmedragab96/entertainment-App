@@ -10,12 +10,12 @@ import {
 import Home from '../../screens/home/home';
 class AuthenticationRoute extends Component<any> {
   render() {
-    // const {
-    //     component,
-    //   } = this.props;
+    const {
+        component,
+      } = this.props;
       return (
         <Switch>
-          <Route component = {Home} path = '/home' />
+          <Route path={this.props.path} component={component} />
         </Switch>
       );
   }
